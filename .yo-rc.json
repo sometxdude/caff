@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "baseName": "cafftrack",
+    "packageName": "com.mycompany.cafftrack",
+    "packageFolder": "com/mycompany/cafftrack",
+    "authenticationType": "xauth",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "useCompass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "gulp",
+    "javaVersion": "8",
+    "rememberMeKey": "5c0daa8cbce34432fc27be4156285d37ff5aaf38"
+  }
+}

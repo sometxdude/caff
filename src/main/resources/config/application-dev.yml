@@ -10,7 +10,7 @@ spring:
         databaseName: cafftrack
         serverName: localhost
         username: cafftrack
-        password: 
+        password: cafftrack
 
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQL82Dialect

@@ -1,0 +1,21 @@
+{
+    "cafftrackApp": {
+        "food" : {
+            "home": {
+                "title": "Foods",
+                "createLabel": "Créer un nouveau Food",
+                "createOrEditLabel": "Créer ou éditer un Food"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Food {{ id }} ?"
+            },
+            "detail": {
+                "title": "Food"
+            },
+            "name": "Name",
+            "caffeine": "Caffeine",
+            "description": "Description"
+        }
+    }
+}
+

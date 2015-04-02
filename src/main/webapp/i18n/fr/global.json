@@ -7,6 +7,7 @@
             "entities": {
                 "main": "Entités",
                 "food": "Food",
+                "logEntry": "LogEntry",
                 "additionalEntity": "JHipster will add addtional entities"
             },
             "account": {

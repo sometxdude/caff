@@ -1,0 +1,21 @@
+{
+    "cafftrackApp": {
+        "logEntry" : {
+            "home": {
+                "title": "LogEntrys",
+                "createLabel": "Créer un nouveau LogEntry",
+                "createOrEditLabel": "Créer ou éditer un LogEntry"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le LogEntry {{ id }} ?"
+            },
+            "detail": {
+                "title": "LogEntry"
+            },
+            "logTime": "LogTime",
+            "quantity": "Quantity",
+            "food": "food"
+        }
+    }
+}
+

@@ -1,0 +1,47 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "food",
+            "relationshipNameCapitalized": "Food",
+            "relationshipFieldName": "food",
+            "otherEntityName": "food",
+            "relationshipType": "many-to-one",
+            "otherEntityNameCapitalized": "Food",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "logTime",
+            "fieldType": "DateTime",
+            "fieldNameCapitalized": "LogTime",
+            "fieldNameUnderscored": "log_time",
+            "fieldInJavaBeanMethod": "LogTime",
+            "fieldValidate": true,
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "quantity",
+            "fieldType": "Integer",
+            "fieldNameCapitalized": "Quantity",
+            "fieldNameUnderscored": "quantity",
+            "fieldInJavaBeanMethod": "Quantity",
+            "fieldValidate": false
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": true,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": true,
+    "fieldsContainDate": false,
+    "changelogDate": "20150402154840",
+    "pagination": "pager",
+    "validation": true
+}

@@ -1,0 +1,46 @@
+
+<div>
+    <h2><span translate="cafftrackApp.logEntry.detail.title">LogEntry</span> {{logEntry.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th translate="entity.detail.field">Field</th>
+                    <th translate="entity.detail.value">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span translate="cafftrackApp.logEntry.logTime">LogTime</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{logEntry.logTime}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="cafftrackApp.logEntry.quantity">Quantity</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{logEntry.quantity}}" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span translate="cafftrackApp.logEntry.food">food</span>
+                    </td>
+                    <td>
+                        <input type="text" class="input-sm form-control" value="{{logEntry.food.name}}" readonly>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            ui-sref="logEntry"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

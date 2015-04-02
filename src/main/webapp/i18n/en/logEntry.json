@@ -1,0 +1,20 @@
+{
+    "cafftrackApp": {
+        "logEntry" : {
+            "home": {
+                "title": "LogEntrys",
+                "createLabel": "Create a new LogEntry",
+                "createOrEditLabel": "Create or edit a LogEntry"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete LogEntry {{ id }}?"
+            },
+            "detail": {
+                "title": "LogEntry"
+            },
+            "logTime": "LogTime",
+            "quantity": "Quantity",
+            "food": "food"
+        }
+    }
+}
